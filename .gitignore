@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# User-provided documents and generated retrieval data
+data/
+vector_store/
+*.pkl
+
+# Tooling and local files
+.pytest_cache/
+.mypy_cache/
+.coverage
+*.log
+.DS_Store
